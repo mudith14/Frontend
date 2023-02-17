@@ -2,8 +2,8 @@ import { FC, useEffect } from "react";
 import Image from "next/image";
 import Project from "./Project";
 import Img1 from "../../images/website-main-dark.jpg";
-import Img2 from "../../images/nft-marketplace.jpg";
-import Img3 from "../../images/portfolio-app.jpg";
+import Img2 from "../../images/ecommerce.png";
+import Img3 from "../../images/nft-marketplace.jpg";
 import Link from "next/link";
 import AOS from "aos";
 import "aos/dist/aos.css";
@@ -55,10 +55,10 @@ const LatestWork: FC = () => {
           <Link href="/CryptoDora">
             <Project
               title="CryptoDora"
-              description="realtime cryptocurrency charts, news and track your winning portfolio!"
+              description="realtime cryptocurrency charts, news and track your winning portfolio."
               img={Img1}
               number={1}
-              link="https://example.com"
+              link="https://cryptodora-app.web.app/"
             />
           </Link>
         </div>
@@ -68,13 +68,13 @@ const LatestWork: FC = () => {
           data-aos="fade-up"
           data-aos-duration="1000"
         >
-          <Link href="/NFT-Marketplace">
+          <Link href="/Brand-Ecommerce">
             <Project
-              title="NFT_Marketplace"
-              description="NFT Marketplace project made using the immense power of Solidity and Next.js."
+              title="Ecommerce_Platform"
+              description="Brand is an ecommerce platform where users can buy & sell any product."
               img={Img2}
               number={2}
-              link="https://nft-marketplace-sovq9dcag-yasindunethmina.vercel.app/"
+              link="https://ecommerce-platform-eight.vercel.app/"
             />
           </Link>
         </div>
@@ -84,13 +84,13 @@ const LatestWork: FC = () => {
           data-aos="fade-right"
           data-aos-duration="1000"
         >
-          <Link href="/Portfolio">
+          <Link href="/NFT-Marketplace">
             <Project
-              title="Portfolio_Website"
-              description="Amazing portfolio website with stunning & complex real-world projects!"
+              title="NFT_Marketplace"
+              description="NFT Marketplace project made with immense power of Solidity and Next.js."
               img={Img3}
               number={3}
-              link="https://www.yasindu.me/"
+              link="https://nft-marketplace-sovq9dcag-yasindunethmina.vercel.app/"
             />
           </Link>
         </div>
@@ -123,7 +123,7 @@ const LatestWork: FC = () => {
               alt="project1"
             />
           </Link>
-          <Link href="/NFT-Marketplace">
+          <Link href="/Brand-Ecommerce">
             <Image
               src={Img2}
               className="mt-12 w-full border-2"
@@ -132,7 +132,7 @@ const LatestWork: FC = () => {
               alt="project2"
             />
           </Link>
-          <Link href="/Portfolio">
+          <Link href="/NFT-Marketplace">
             <Image
               src={Img3}
               className="mt-12 w-full border-2"

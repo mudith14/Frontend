@@ -9,19 +9,19 @@ import TrendingFlatIcon from "@mui/icons-material/TrendingFlat";
 const WorkTogether: FC = () => {
   return (
     <>
-      <div className="personal-project-section name-text mt-10 sm:-mt-8">
-        <h4 className="name-text name-text personal-projects-text mb-4 text-center leading-4 tracking-widest text-[#878a8f] sm:mb-2">
+      <div className="personal-project-section name-text">
+        <h4 className="name-text name-text personal-projects-text mb-10 text-center text-xl leading-4 tracking-widest text-[#878a8f] sm:mb-5 sm:text-sm">
           VIDEO GAMES & ARTS
         </h4>
         <h1 className="title-text personal-projects-text name-text -left-1 mb-4 text-center text-6xl font-extrabold text-[#0f141e] sm:mb-2 sm:text-4xl">
           Level design projects
         </h1>
 
-        <h1 className="title-text personal-projects-text -left-1 mt-8 text-center text-sm font-semibold italic text-[#878a8f] sm:mt-4">
+        <h1 className="title-text personal-projects-text -left-1 mt-8 text-center text-lg font-semibold italic text-[#878a8f] sm:mt-4">
           *Back in 2021 summer, I switched my 5 years of game development career
           into Software Engineering, specially for Web Development! <br />
         </h1>
-        <h1 className="title-text personal-projects-text ml-1 mb-4 text-center text-sm font-semibold text-[#878a8f] sm:mt-4 sm:mb-0">
+        <h1 className="title-text personal-projects-text ml-1 mb-4 text-center text-lg font-semibold text-[#878a8f] sm:mt-4 sm:mb-0">
           These are some of my game design work, that I&lsquo;ve done in the
           past...
         </h1>

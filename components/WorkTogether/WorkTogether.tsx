@@ -22,11 +22,8 @@ const WorkTogether: FC = () => {
   }
 
   return (
-    <div
-      className="contact-me-section mt-20 mb-6 text-center sm:-mt-10"
-      id="contact"
-    >
-      <h4 className="name-text mb-4 leading-4 tracking-widest text-[#878a8f] sm:mb-0 sm:text-sm">
+    <div className="contact-me-section my-20 mb-6 text-center" id="contact">
+      <h4 className="name-text mb-4 text-lg leading-4 tracking-widest text-[#878a8f] sm:mb-0 sm:text-sm">
         NEED A FRONTEND DEVELOPER?
       </h4>
       <a href="mailto:yasindunethmina1938096@gmail.com">
@@ -44,7 +41,7 @@ const WorkTogether: FC = () => {
           />
         </button>
       </a>
-      <div className="map-section absolute left-0 h-96 w-full sm:w-full">
+      <div className="map-section absolute left-0 mt-0 h-96 w-full sm:w-full">
         <Map />
       </div>
 

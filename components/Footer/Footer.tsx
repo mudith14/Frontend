@@ -15,7 +15,7 @@ const Footer: FC = () => {
             <h1 className="name-text hidden text-lg font-bold sm:block sm:text-center">
               Contact information <RemoveIcon />
             </h1>
-            <p className="name-text mt-3 text-xs text-gray-500 sm:px-2 sm:text-center">
+            <p className="name-text mt-3 text-sm text-gray-500 sm:px-2 sm:text-center">
               Feel free to reach out to me any time. I prefer to talk over email
               or discord, especially since we may be a few time zones away.
             </p>
@@ -98,10 +98,10 @@ const Footer: FC = () => {
               </h4>
               <h4 className="case-studies-text mt-1 cursor-pointer text-sm underline-offset-4 transition-all hover:underline">
                 <Link
-                  href="/heading-portfolio-section"
-                  as={`/Portfolio/#heading-portfolio-section`}
+                  href="/heading-ecommerce-section"
+                  as={`/Brand-Ecommerce/#heading-ecommerce-section`}
                 >
-                  Portfolio
+                  Ecommerce
                 </Link>
               </h4>
             </div>
@@ -110,7 +110,7 @@ const Footer: FC = () => {
               <h1 className="name-text text-lg font-bold">
                 Current <br /> availability <RemoveIcon />
               </h1>
-              <p className="name-text name-text mt-3 pr-16 text-xs text-gray-500">
+              <p className="name-text name-text mt-3 pr-16 text-sm text-gray-500">
                 I usually work on several projects but I’ll be happy to discuss
                 new opportunities. Let’s get in touch!
               </p>
@@ -133,7 +133,17 @@ const Footer: FC = () => {
                 </a>
               </h4>
 
-              <h4 className="case-studies-text mt-3 cursor-pointer text-sm underline-offset-4 transition-all hover:underline">
+              <h4 className="case-studies-text mt-2 cursor-pointer text-sm underline-offset-4 transition-all hover:underline">
+                <a
+                  href="https://github.com/YasinduNethmina"
+                  target="_blank"
+                  rel="noreferrer"
+                >
+                  Github
+                </a>
+              </h4>
+
+              <h4 className="case-studies-text mt-2 cursor-pointer text-sm underline-offset-4 transition-all hover:underline">
                 <a
                   href="https://twitter.com/yasindu_neth"
                   target="_blank"

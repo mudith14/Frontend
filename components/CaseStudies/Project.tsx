@@ -25,7 +25,7 @@ const Project: FC<Props> = ({ title, description, img, number, link }) => {
         <h1 className="project-text case-studies-text absolute bottom-20 left-10  z-10 w-40 text-left text-5xl font-bold text-white">
           {title}
         </h1>
-        <p className="project-description case-studies-text absolute bottom-12 left-10 z-10 w-full text-left text-sm font-normal italic tracking-wider text-white">
+        <p className="project-description case-studies-text absolute bottom-12 left-10 z-10 w-full text-left text-base font-normal italic tracking-wider text-white">
           {description}
         </p>
         <div className="button-section bg-blue-500">

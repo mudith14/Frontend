@@ -23,7 +23,7 @@ const Navbar: FC = () => {
           </div>
         </div>
 
-        <div className="flex w-1/2 justify-around text-lg font-bold text-[#4c4f65] transition-all delay-150 duration-300 ease-in-out">
+        <div className="flex w-1/2 justify-around text-xl font-bold text-[#4c4f65] transition-all delay-150 duration-300 ease-in-out">
           <a
             href="#case-studies"
             className="link link-underline link-underline-black name-text h-8 cursor-pointer hover:text-[#1c1d25] sm:hidden"

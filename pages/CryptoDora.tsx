@@ -227,7 +227,10 @@ export const CryptoDora = (props: IAppProps) => {
             </h4>
 
             <div className="flex w-full items-center justify-between">
-              <Link href="/NFT-Marketplace#heading-nft-marketplace">
+              <Link
+                href="/heading-nft-marketplace"
+                as={`/NFT-Marketplace/#heading-nft-marketplace`}
+              >
                 <h1
                   id="see-next-work"
                   className="work-together-text text-6xl font-extrabold sm:relative sm:-top-48 sm:text-4xl"

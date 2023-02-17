@@ -4,8 +4,10 @@ import Image from "next/image";
 import NavbarProjects from "../components/Navbar/NavbarProjects";
 import Rightbar from "../components/RightBar/Rightbar";
 import Footer from "../components/Footer/Footer";
-import PortfolioImg1 from "../images/PortfolioImg.png";
-import PortfolioImg from "../images/PortfolioImg1.png";
+
+import EcommerceImg1 from "../images/EcommerceImg1.png";
+import EcommerceImg2 from "../images/EcommerceImg2.png";
+
 import ArrowRightAltIcon from "@mui/icons-material/ArrowRightAlt";
 import PortfolioBgImg from "../images/Portfolio.svg";
 import TrendingFlatIcon from "@mui/icons-material/TrendingFlat";
@@ -13,7 +15,7 @@ import EmailIcon from "@mui/icons-material/Email";
 
 export interface IAppProps {}
 
-export const Portfolio = (props: IAppProps) => {
+export const Ecommerce = (props: IAppProps) => {
   return (
     <>
       {/* Email Me Btn */}
@@ -26,7 +28,7 @@ export const Portfolio = (props: IAppProps) => {
         </div>
       </a>
       <div
-        id="heading-portfolio-section"
+        id="heading-ecommerce-section"
         className="relative h-screen w-full bg-white"
       >
         <div className="flex">
@@ -34,16 +36,16 @@ export const Portfolio = (props: IAppProps) => {
           <Rightbar />
           <div className="cryptodora-img flex items-center justify-around sm:top-60 sm:mt-2 sm:flex-wrap sm:pt-10">
             <div className="relative left-20 sm:left-5 sm:mt-16">
-              <h1 className="name-text inline-block text-6xl font-bold text-[#0f141e] sm:relative sm:left-2">
-                Portfolio
+              <h1 className="name-text inline-block text-6xl font-bold text-[#0f141e] sm:relative sm:right-5">
+                Ecommerce
               </h1>
               <h4 className="name-text mt-4 text-center font-serif italic text-[#878a8f] sm:relative sm:right-6">
-                Amazing portfolio website with stunning projects.
+                A platform to buy, sell anything as you wish
               </h4>
             </div>
-            <Link href="/">
+            <Link href="https://ecommerce-platform-eight.vercel.app/">
               <Image
-                src={PortfolioImg}
+                src={EcommerceImg1}
                 alt="cryptodora img"
                 className="relative left-28 w-3/4 cursor-pointer transition-all duration-1000 hover:scale-105 sm:left-0 sm:mx-auto sm:mt-8 sm:mb-20 sm:w-full"
               />
@@ -70,7 +72,7 @@ export const Portfolio = (props: IAppProps) => {
             <span className="role-text font-bold tracking-widest text-[#00c8e7]">
               PERIOD &nbsp;
             </span>
-            2022 DECEMBER
+            2023 JANUARY
           </h4>
         </div>
 
@@ -80,12 +82,14 @@ export const Portfolio = (props: IAppProps) => {
           </h1>
           <div className="flex justify-center">
             <p className="name-text relative z-10 w-1/3 pt-6 text-justify font-serif tracking-widest text-[#0f141e] sm:bottom-56 sm:w-full sm:px-10">
-              This is the website that you&apos;re viewing right now, I made
-              this to showcase my web development skills and projects to my
-              stunning clients. <br />
-              <br />I made this using Next js (Simply, React Js SUPERCHARGED ⚡)
-              with Typescript, also used Vercel for hosting, MUI, Framer Motion,
-              TailwindCSS... If you&apos;re interested in my work,{" "}
+              Brand is an ecommerce platform where users can buy & sell any
+              product which is powered by Stripe API, the global trusted payment
+              system used to handle all the transactions secure.
+              <br />
+              <br />
+              This is built using the latest technologies such as Next js with
+              Typescript, Redux, SCSS & TailwindCSS. If you&apos;re interested
+              in my work,{" "}
               <a href="#footer">
                 <span className="cursor-pointer font-serif font-semibold italic tracking-widest underline-offset-4 hover:underline">
                   Let&apos;s have a chat
@@ -99,7 +103,9 @@ export const Portfolio = (props: IAppProps) => {
             <div className="visit-website-btn z-10 flex w-40 justify-center border-2 border-[#0f141e] bg-transparent font-semibold text-[#0f141e] transition-all duration-300 hover:bg-[#0f141e] hover:text-white sm:relative sm:bottom-48 sm:mx-auto sm:mb-10 sm:w-80 sm:p-0">
               <Link
                 className="name-text relative left-5 z-10 flex items-center justify-center font-bold tracking-wider"
-                href="/"
+                href="https://ecommerce-platform-eight.vercel.app/"
+                target="_blank"
+                rel="noreferrer"
               >
                 Visit Website
               </Link>
@@ -132,32 +138,33 @@ export const Portfolio = (props: IAppProps) => {
           <div className="analysis-section z-50 flex w-full items-center justify-center sm:block">
             <div className="mr-40 w-1/3 sm:relative sm:-top-24 sm:m-0 sm:w-full">
               <h1 className="name-text text-left text-4xl font-bold text-[#0f141e] sm:w-full sm:text-center">
-                Build with amazing clients in mind, and Love.
+                Built with amazing clients in mind, and Love.
               </h1>
               <div className="my-8 h-1 w-1/4 bg-[#0f141e] sm:relative sm:left-12 sm:flex sm:w-3/4 sm:px-10"></div>
               <p className="case-studies-text text-left font-serif text-lg leading-relaxed tracking-wider text-[#0f141e] sm:w-full sm:px-6 sm:text-center">
-                This is a{" "}
+                Using the{" "}
                 <span className="case-studies-text font-semibold tracking-normal text-[#00c8e7]">
-                  modern website
+                  Brand Ecommerce Platform {""}
                 </span>
-                : every part of the application is specially designed to
-                showcase my skills.
+                you&apos;ll be able to explore a large amount of products on
+                mobile or desktop.
                 <br /> <br /> As the{" "}
                 <span className="case-studies-text font-semibold tracking-normal text-[#00c8e7]">
                   Lead Developer{" "}
                 </span>
-                of this website, my main goal was to build this website & show
-                my{" "}
+                of this platform, my main challenge was to build the entire
+                website, it's system design & implement the all logic behind the
+                scenes. Specially{" "}
                 <span className="case-studies-text font-semibold tracking-normal text-[#00c8e7] underline">
-                  previous projects
+                  managing state functionality throught the application with
+                  Redux
                 </span>
-                , that I&apos;m responsible for. So you&apos;re watching my
-                amazing portfolio website right now 😎 Hah!
-                <br /> <br /> I built this website also considering it&apos;s{" "}
+                , that I&apos;m very happy to achieve it in a very optimal &
+                organized way.
+                <br /> <br /> Also I managed to optimize the search results,{" "}
                 <span className="case-studies-text font-semibold tracking-normal text-[#00c8e7]">
-                  responsive behavior with bunch of cool animations!
+                  reduce the API call count with server & loading time.
                 </span>{" "}
-                ,{" "}
                 <a
                   href="https://www.linkedin.com/in/yasinduneth/"
                   target="_blank"
@@ -182,7 +189,7 @@ export const Portfolio = (props: IAppProps) => {
 
             <div className="">
               <Image
-                src={PortfolioImg1}
+                src={EcommerceImg2}
                 className="w-96 scale-150 sm:mx-auto sm:-mt-10 sm:w-2/3 sm:scale-125"
                 alt="project-img"
               ></Image>
@@ -190,10 +197,10 @@ export const Portfolio = (props: IAppProps) => {
           </div>
           <div className="colors-section flex w-full flex-wrap justify-evenly sm:hidden">
             <div className="z-20 h-40 w-40 rounded-full bg-[#1b2028] transition-all duration-500 hover:shadow-2xl hover:drop-shadow-2xl"></div>
-            <div className="z-20 h-40 w-40 rounded-full bg-[#00cccb] transition-all duration-500 hover:shadow-2xl hover:drop-shadow-2xl"></div>
-            <div className="z-20 h-40 w-40 rounded-full bg-[#fff] drop-shadow-2xl transition-all duration-500 hover:shadow-2xl"></div>
-            <div className="z-20 h-40 w-40 rounded-full bg-[#f0f0f0] transition-all duration-500 hover:shadow-2xl hover:drop-shadow-2xl"></div>
-            <div className="z-20 h-40 w-40 rounded-full bg-[#878e8f] transition-all duration-500 hover:shadow-2xl hover:drop-shadow-2xl"></div>
+            <div className="z-20 h-40 w-40 rounded-full bg-[#F38333] transition-all duration-500 hover:shadow-2xl hover:drop-shadow-2xl"></div>
+            <div className="z-20 h-40 w-40 rounded-full bg-[#2D7CFE] drop-shadow-2xl transition-all duration-500 hover:shadow-2xl"></div>
+            <div className="z-20 h-40 w-40 rounded-full bg-[#E0E0E0] transition-all duration-500 hover:shadow-2xl hover:drop-shadow-2xl"></div>
+            <div className="z-20 h-40 w-40 rounded-full bg-[#606060] transition-all duration-500 hover:shadow-2xl hover:drop-shadow-2xl"></div>
           </div>
 
           <div className="colors-section flex w-full flex-wrap justify-evenly sm:hidden">
@@ -201,16 +208,16 @@ export const Portfolio = (props: IAppProps) => {
               $ebony-black
             </div>
             <div className="case-studies-text z-20 mt-3 h-4 w-40 rounded-full font-serif text-gray-500 transition-all duration-500 hover:text-red-500">
-              $egg-blue
+              $mango-orange
             </div>
             <div className="case-studies-text z-20 mt-3 h-4 w-40 rounded-full font-serif text-gray-500 transition-all duration-500 hover:text-red-500">
-              $shiny-white
+              $bold-blue
             </div>
             <div className="case-studies-text z-20 mt-3 h-4 w-40 rounded-full font-serif text-gray-500 transition-all duration-500 hover:text-red-500">
               $catskill-white
             </div>
             <div className="case-studies-text z-20 mt-3 h-4 w-40 rounded-full font-serif text-gray-500 transition-all duration-500 hover:text-red-500">
-              $rough-gray
+              $dark-gray
             </div>
           </div>
 
@@ -230,11 +237,11 @@ export const Portfolio = (props: IAppProps) => {
 
         <div
           id="next-work-section"
-          className="next-work-section flex h-40 w-full items-center justify-center transition-all duration-700"
+          className="next-work-section mt-44 flex h-40 w-full items-center justify-center transition-all duration-700"
         >
-          <div className="mt-12">
-            <h4 className="name-text mb-4 text-center leading-4 tracking-widest text-[#878a8f] sm:relative sm:bottom-44 ">
-              CRYPTODORA APP
+          <div>
+            <h4 className="name-text mb-4 text-center leading-4 tracking-widest text-[#878a8f] sm:relative sm:bottom-48">
+              CRYPTODORA
             </h4>
 
             <div className="flex w-full items-center justify-between">
@@ -266,4 +273,4 @@ export const Portfolio = (props: IAppProps) => {
   );
 };
 
-export default Portfolio;
+export default Ecommerce;

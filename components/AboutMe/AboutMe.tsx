@@ -37,7 +37,7 @@ const AboutMe: FC = () => {
       <>
         <div className="my-20" id="about-me">
           <h4
-            className="about-me-section name-text name-text personal-projects-text mb-4 text-center leading-4 tracking-widest text-[#878a8f] sm:text-sm"
+            className="about-me-section name-text name-text personal-projects-text mb-10 text-center text-xl leading-4 tracking-widest text-[#878a8f] sm:text-sm"
             data-aos="fade-up"
           >
             A FEW WORDS ABOUT ME
@@ -45,21 +45,22 @@ const AboutMe: FC = () => {
           <div className="flex justify-center" data-aos="fade-up">
             <h1
               animate-aos="fade-up"
-              className="title-text personal-projects-text name-text -left-1 mb-4 w-2/3 text-center text-2xl font-bold leading-9 text-[#0f141e] sm:w-full sm:px-3 sm:text-xl"
+              className="title-text personal-projects-text name-text -left-1 mb-4 w-2/3 text-center text-3xl font-bold leading-9 text-[#0f141e] sm:w-full sm:px-3 sm:text-xl"
             >
-              I’m Yasindu Nethmina, a multidisciplinary developer who focuses on
-              making interactive websites & giving clients immersive results
-              through enjoyable and meaningful experiences. I specialize in
-              Frontend Web Develpment.
+              I'm Yasindu, a multidisciplinary developer specialized in
+              front-end web development with a strong understanding of
+              responsive design, latest industry standard technologies, backend,
+              cloud infrastructure & problem solving.
             </h1>
           </div>
           <div className="flex justify-center" data-aos="zoom-out">
-            <p className="name-text sm:text-md mt-4 w-1/2 text-center text-lg font-semibold text-[#878a8f] sm:w-full sm:px-7">
+            <p className="name-text mt-4 w-1/2 text-center text-lg font-semibold text-[#878a8f] sm:w-full sm:px-7 sm:text-base">
               Over the past years, I&apos;ve been working as a front end web
-              developer, working solo and leading small development teams.
-              Before switching in to Software Engineering, I worked as a Game
-              Level Designer for 5 years. So I have a great knowledge even
-              working with larger technical teams. In spare time I enjoy&nbsp;
+              developer, working solo and with teams doing amazing & inspiring
+              projects. Before switching in to Software Engineering, I worked as
+              a Game Level Designer for 5 years. So I have a great knowledge
+              even working with larger technical teams. In spare time I
+              enjoy&nbsp;
               <span className="cursor-default underline transition-all duration-300 hover:text-black">
                 video games
               </span>{" "}
@@ -107,7 +108,7 @@ const AboutMe: FC = () => {
               className={
                 active
                   ? "about-me-cover cover-img1 justify-left mt-6 flex cursor-move object-contain sm:-mt-28"
-                  : "about-me-cover cover-img1 slide-animation justify-left mt-16 flex hidden cursor-move object-contain"
+                  : "about-me-cover cover-img1 slide-animation justify-left mt-16 hidden cursor-move object-contain"
               }
             />
 
@@ -116,15 +117,15 @@ const AboutMe: FC = () => {
               alt="workflow"
               className={
                 active
-                  ? "about-me-cover cover-img1 slide-animation justify-left mt-16 flex hidden cursor-move object-contain"
+                  ? "about-me-cover cover-img1 slide-animation justify-left mt-16 hidden cursor-move object-contain"
                   : "about-me-cover cover-img2 justify-left mt-6 flex cursor-move object-contain sm:-mt-28"
               }
             />
           </div>
 
-          <div className="mt-16 flex justify-around sm:-mt-28 sm:flex-wrap">
+          <div className="flex justify-around sm:-mt-10 sm:flex-wrap">
             <div data-aos="fade-right" data-aos-duration="1000">
-              <h4 className="name-text name-text personal-projects-text mb-4 text-center text-xs leading-4 tracking-widest text-[#878a8f]">
+              <h4 className="name-text name-text personal-projects-text mb-4 mt-10 text-center text-sm leading-4 tracking-widest text-[#878a8f] sm:-mt-5">
                 EXPERIENCED IN
               </h4>
               <div className="">
@@ -177,7 +178,7 @@ const AboutMe: FC = () => {
             </div>
 
             <div data-aos="fade-left" data-aos-duration="1000">
-              <h4 className="name-text name-text personal-projects-text mb-4 text-center text-xs leading-4 tracking-widest text-[#878a8f] sm:mt-10">
+              <h4 className="name-text name-text personal-projects-text  mt-10 mb-4 text-center text-sm leading-4 tracking-widest text-[#878a8f] sm:mt-10">
                 TECH STACK
               </h4>
               <div className="">
@@ -262,7 +263,7 @@ const AboutMe: FC = () => {
             </div>
           </div>
 
-          <h4 className="name-text name-text personal-projects-text mt-16 text-center text-sm leading-4 tracking-widest text-[#878a8f] sm:mt-12">
+          <h4 className="name-text name-text personal-projects-text mt-16 text-center text-base leading-4 tracking-widest text-[#878a8f] sm:mt-12">
             SKILLS
           </h4>
           <div

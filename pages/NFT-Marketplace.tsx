@@ -27,14 +27,14 @@ export const CryptoDora = (props: IAppProps) => {
           </span>
         </div>
       </a>
-      <div className="relative h-screen w-full bg-white">
+      <div
+        id="heading-nft-marketplace"
+        className="relative h-screen w-full bg-white"
+      >
         <div className="flex">
           <NavbarProjects />
           <Rightbar />
-          <div
-            id="heading-nft-marketplace"
-            className="cryptodora-img flex items-center justify-around sm:top-48 sm:mt-2 sm:flex-wrap sm:pt-10"
-          >
+          <div className="cryptodora-img flex items-center justify-around sm:top-48 sm:mt-2 sm:flex-wrap sm:pt-10">
             <div>
               <h1 className="name-text inline-block text-6xl font-bold text-[#0f141e] sm:text-4xl">
                 NFT_Marketplace
@@ -226,13 +226,13 @@ export const CryptoDora = (props: IAppProps) => {
         >
           <div>
             <h4 className="name-text mb-4 text-center leading-4 tracking-widest text-[#878a8f] sm:relative sm:bottom-48">
-              CRYPTODORA
+              ECOMMERCE PLATFORM
             </h4>
 
             <div className="flex w-full items-center justify-between">
               <Link
-                href="/heading-portfolio-section"
-                as={`/CryptoDora/#heading-portfolio-section`}
+                href="/heading-ecommerce-section"
+                as={`/Brand-Ecommerce/#heading-ecommerce-section`}
               >
                 <h1
                   id="see-next-work"
