@@ -56,7 +56,7 @@ const Home = () => {
               <h6
                 data-aos="zoom-in"
                 data-aos-duration="1000"
-                className="bio-text mb-4 text-xl font-semibold text-[#878a8f] drop-shadow-2xl md:text-base"
+                className="bio-text mb-4 text-base font-semibold text-[#878a8f] drop-shadow-2xl"
               >
                 I&apos;m Yasindu, a frontend web developer with extensive
                 knowledge and experience in React, Javascript, Typescript, SASS,
