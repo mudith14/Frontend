@@ -153,7 +153,7 @@ export const Ecommerce = (props: IAppProps) => {
                   Lead Developer{" "}
                 </span>
                 of this platform, my main challenge was to build the entire
-                website, it's system design & implement the all logic behind the
+                website, it&apos;s system design & implement the all logic behind the
                 scenes. Specially{" "}
                 <span className="case-studies-text font-semibold tracking-normal text-[#00c8e7] underline">
                   managing state functionality throught the application with

@@ -47,7 +47,7 @@ const AboutMe: FC = () => {
               animate-aos="fade-up"
               className="title-text personal-projects-text name-text -left-1 mb-4 w-2/3 text-center text-3xl font-bold leading-9 text-[#0f141e] sm:w-full sm:px-3 sm:text-xl"
             >
-              I'm Yasindu, a multidisciplinary developer specialized in
+              I&apos;m Yasindu, a multidisciplinary developer specialized in
               front-end web development with a strong understanding of
               responsive design, latest industry standard technologies, backend,
               cloud infrastructure & problem solving.
