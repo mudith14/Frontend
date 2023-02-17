@@ -1,6 +1,5 @@
 # Portfolio Website
 <br />
-<div align="center"><img src="./resources/Home.png" width="950" height="550"></div>
 
 #### Live Link: https://www.yasindu.me/
 
