@@ -10,7 +10,7 @@ const WorkTogether: FC = () => {
   return (
     <>
       <div className="personal-project-section name-text">
-        <h4 className="name-text name-text personal-projects-text mb-10 text-center text-xl leading-4 tracking-widest text-[#878a8f] sm:mb-5 sm:text-sm">
+        <h4 className="name-text name-text personal-projects-text mb-8 text-center text-xl leading-4 tracking-widest text-[#878a8f] sm:mb-5 sm:text-sm">
           VIDEO GAMES & ARTS
         </h4>
         <h1 className="title-text personal-projects-text name-text -left-1 mb-4 text-center text-6xl font-extrabold text-[#0f141e] sm:mb-2 sm:text-4xl">
