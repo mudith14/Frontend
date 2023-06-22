@@ -1,7 +1,6 @@
 # Portfolio Website
 <br />
 
-#### Live Link: https://www.yasindu.me/
 
 ## Welcome to my Portfolio GitHub project! This project is built to showcase my skills and experience for my clients. This is built using the following technologies:
 
